@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(55, 55, 87);
+    text-align: center;
+}
+.heading {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin-top: 105px;
+    color: cyan;
+    font-size: 300%;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 50px;
+    font-family: 'Pacifico', cursive;
+    color: cyan;
+    font-weight: 50;
+    font-size: 2rem;
+}
+.dice{
+    width: 4em;
+    height: auto;
+}
+.play-button {
+    margin-top: 50px; /* Move the button lower */
+    padding: 15px 30px; /* Make the button bigger */
+    font-size: 1.5em; /* Increase font size */
+    background-color: white; /* Button background color */
+    border: 1px solid black; /* Button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+.play-button:hover {
+    background-color: green; /* Lighter background on hover */
+}
